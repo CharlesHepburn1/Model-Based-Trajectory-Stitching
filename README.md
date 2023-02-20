@@ -8,6 +8,9 @@ To recreate the results in the paper run the following line (using HalfCheetah M
 ```
 python3 TrajectoryStitching.py --env_name "Halfcheetah" --env "halfcheetah-mediumexpert-v2" --diff "MedExp" --reward_function "WGAN"
 ```
+
+Note that before running `TrajectoryStitching.py`, a forward model, inverse model and reward function are pre-trained. 
+
 ### bibtex
 ```
 @article{hepburn2022model,
