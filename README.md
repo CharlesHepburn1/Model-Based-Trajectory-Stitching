@@ -3,6 +3,8 @@
 Model-based trajectory stitching is an iterative data improvement strategy which can be applied to historical datasets containing
 demonstrations of sequential decisions taken to solve a complex task.
 
+![TSFig](https://user-images.githubusercontent.com/72391441/220144478-f0a2750c-a69c-4b25-bea0-1e65a57590ac.png)
+
 
 To recreate the results in the paper run the following line (using HalfCheetah Medium Expert as an example)
 ```
