@@ -95,7 +95,7 @@ if __name__ == "__main__":
 
     hidden_dim = args.hidden_dim
     batch_size = args.batch_size
-    epochs = args.epoch
+    epochs = args.epochs
     iterations = 1
     agent_mlp = Reward_Functions.MLP_train(state_dim, action_dim,hidden_dim = hidden_dim, batch_size=batch_size,
                                    device=device)
