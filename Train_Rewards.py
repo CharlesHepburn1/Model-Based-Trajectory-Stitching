@@ -138,4 +138,4 @@ if __name__ == "__main__":
     #torch.save(reward_loss, f"Reward_Functions/Data/Loss_{agent_type}_hd{hidden_dim}")
     #torch.save(rewards_model, f"Reward_Functions/Models/{agent_type}_hd{hidden_dim}")
 
-    torch.save(rewards_model, f"PlannerModels/{environment}/Rewards_{agent_type}_{Diff}")
+    torch.save(rewards_model, f"PlannerModels/{environment}/Rewards_{agent_type}_{file_name}")
