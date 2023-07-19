@@ -15,11 +15,22 @@ To recreate the results used in the paper run `BC_loop.py` which creates a polic
 Note that before running `TrajectoryStitching.py`, a forward model, inverse model and reward function are pre-trained. 
 
 ### bibtex
+Full journal paper
 ```
 @article{hepburn2022model,
   title={Model-based trajectory stitching for improved behavioural cloning and its applications},
   author={Hepburn, Charles A and Montana, Giovanni},
   journal={arXiv preprint arXiv:2212.04280},
+  year={2022}
+}
+
+```
+Neurips workshop paper
+```
+@article{hepburn2022model,
+  title={Model-based trajectory stitching for improved offline reinforcement learning},
+  author={Hepburn, Charles A and Montana, Giovanni},
+  journal={arXiv preprint arXiv:2211.11603},
   year={2022}
 }
 
