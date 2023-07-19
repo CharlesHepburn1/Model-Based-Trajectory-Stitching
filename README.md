@@ -1,5 +1,4 @@
 # Model-based Trajectory Stitching
-***note: soon we are updating this code to compute stitching events in parallel***
 
 Model-based trajectory stitching is an iterative data improvement strategy which can be applied to historical datasets containing
 demonstrations of sequential decisions taken to solve a complex task.
@@ -23,4 +22,5 @@ Note that before running `TrajectoryStitching.py`, a forward model, inverse mode
   journal={arXiv preprint arXiv:2212.04280},
   year={2022}
 }
+
 ```
